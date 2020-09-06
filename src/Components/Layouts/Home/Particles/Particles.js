@@ -8,7 +8,7 @@ const particles = (props) => {
       params={{
         particles: {
           number: {
-            value: 160,
+            value: 360,
             density: {
               enable: false,
             },
@@ -17,10 +17,10 @@ const particles = (props) => {
             value: "#53535366",
           },
           size: {
-            value: 4,
+            value: 8,
             random: true,
             anim: {
-              speed: 4,
+              speed: 6,
               size_min: 0.3,
             },
           },
@@ -29,7 +29,7 @@ const particles = (props) => {
           },
           move: {
             random: true,
-            speed: 2,
+            speed: 3,
             direction: "top",
             out_mode: "out",
           },
