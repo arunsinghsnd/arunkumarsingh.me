@@ -17,10 +17,10 @@ const particles = (props) => {
             value: "#53535366",
           },
           size: {
-            value: 8,
+            value: 6,
             random: true,
             anim: {
-              speed: 6,
+              speed: 4,
               size_min: 0.3,
             },
           },
@@ -29,7 +29,7 @@ const particles = (props) => {
           },
           move: {
             random: true,
-            speed: 3,
+            speed: 2,
             direction: "top",
             out_mode: "out",
           },
