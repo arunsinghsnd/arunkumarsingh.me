@@ -19,7 +19,7 @@ class Project extends Component {
           img: img1,
           alt: "Clothing Sales",
           topic: "Clothing Sales",
-          link: "https://github.com/SajidAnTechie/WeChat",
+          link: "https://github.com/arunsinghsnd/crwn-clothing",
           link1: "https://clothing-sales.herokuapp.com/"
         },
         {
@@ -27,8 +27,8 @@ class Project extends Component {
           img: img2,
           alt: "T-Shirt Store",
           topic: "T-Shirt Store",
-          link: "https://github.com/SajidAnTechie/Hospital-Management-Sys",
-          link1: "https://clothing-sales.herokuapp.com/"
+          link: "https://github.com/arunsinghsnd/e-commerce-frontend",
+          link1: "https://github.com/arunsinghsnd/e-commerce-frontend"
         },
         {
           id: 3,
@@ -65,8 +65,8 @@ class Project extends Component {
         {
           id: 7,
           img: img7,
-          alt: "BlogManagement CMS",
-          topic: "BlogManagement CMS",
+          alt: "Robo Friends",
+          topic: "Robo Friends",
           link: "https://github.com/arunsinghsnd/robofriends",
           link1: "https://arunsinghsnd.github.io/robofriends/"
         },
