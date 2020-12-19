@@ -18,6 +18,13 @@ const education = () => {
       <p>Saraswati Vidya Mandir, Sindri, Dhanbad, Jharkhand </p>
       <p>I had successfully Passed with a 8.8 CGPA</p>
 
+      <span>
+        <i className="fas fa-graduation-cap"></i>
+      </span>
+      <h5>Work Expericene</h5>
+      <h6>Software Developer Intern (Form OCT 2020 to Present)</h6>
+      <p>TestUnity-A Crowdsourced Testing Platform, Bengaluru, India</p>
+
       
     </Auxillary>
     

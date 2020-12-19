@@ -9,7 +9,7 @@ const contentone = () => {
       </span>
       <h5>Web Design</h5>
       <p>
-        Passionate web designer, Skilled in Adobe Creative Suit, Html , Css.
+        Passionate web designer,  highly obsessed with Reactjs, Html , Css.
         Creates seamless UX and UI with creative but funtional designs Desighned
         10+ websites.
       </p>

@@ -27,6 +27,10 @@ const aboutdetailes = () => {
           in languages such as HTML,CSS,React and as well as scripting languages
           and JavaScript.
         </p>
+
+        <h2>
+          Currently,<span> Software Developer Intern  <br/></span>At TestUnity, Bengaluru, India
+        </h2>
         <table className={table.join(" ")}>
           <Table />
         </table>
