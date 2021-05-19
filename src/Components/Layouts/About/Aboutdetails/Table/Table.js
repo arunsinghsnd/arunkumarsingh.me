@@ -5,7 +5,7 @@ class Table extends Component {
   state = {
     data: [
       { id: 1, head: "Name", name: ": Arun Kumar Singh" },
-      { id: 2, head: "Age", name: ": 20" },
+      { id: 2, head: "Age", name: ": 21" },
       { id: 3, head: "Address", name: ": Dhanbad, Jharkhand" },
       { id: 4, head: "Contact", name: ": 8427825355" },
     ],
@@ -13,7 +13,7 @@ class Table extends Component {
   render() {
     return (
       <Auxilarry>
-        {this.state.data.map((data) => {
+        {this.state.data.map(data => {
           return (
             <tbody key={data.id}>
               <tr>

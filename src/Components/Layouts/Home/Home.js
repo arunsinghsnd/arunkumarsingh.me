@@ -28,6 +28,7 @@ const home = () => {
               className={Classes.typedcursor}
               loop
             ></Typed>
+            <h1>I Eat Sleep Code Repeat With React.</h1>
             <div class={Classes.socila_icons}>
               <Icons />
             </div>
