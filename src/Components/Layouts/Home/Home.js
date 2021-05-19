@@ -13,13 +13,15 @@ const home = () => {
         <div className={Classes.box}>
           <div className={Classes.content}>
             <h1>
-              Hi, I am <br/><span>Arun Kumar Singh</span>
+              Hi, I am <br />
+              <span>Arun Kumar Singh</span>
             </h1>
             <Typed
               strings={[
                 "React Developer",
                 "Nodejs Developer",
                 "MERN Stack Developer",
+                "React Native Developer",
               ]}
               typeSpeed={40}
               backSpeed={50}
@@ -29,8 +31,26 @@ const home = () => {
             <div class={Classes.socila_icons}>
               <Icons />
             </div>
-            <a href="mailto:arunsinghsnd@gmail.com" target="_blank" rel="noopener noreferrer"  ><button className="btn btn-primary" ><strong>Hire Me</strong></button></a><br/><br/>
-            <a href="tel:+918427825355" target="_blank" rel="noopener noreferrer"  ><button className="btn btn-primary" ><strong>Call Me</strong></button></a>
+            <a
+              href="mailto:arunsinghsnd@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="btn btn-primary">
+                <strong>Hire Me</strong>
+              </button>
+            </a>
+            <br />
+            <br />
+            <a
+              href="tel:+918427825355"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="btn btn-primary">
+                <strong>Call Me</strong>
+              </button>
+            </a>
           </div>
         </div>
       </div>
