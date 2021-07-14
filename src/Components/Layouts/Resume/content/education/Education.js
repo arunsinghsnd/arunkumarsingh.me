@@ -8,11 +8,11 @@ const education = () => {
         <i className="fas fa-graduation-cap"></i>
       </span>
       <h5>Education</h5>
-      <h6>Bachelor Of Technology (Graduation) June 2017 - Pursuing</h6>
+      <h6>Bachelor Of Technology in Compter Science (June 2017 - July 2021)</h6>
       <p>Lovely Professional Universitry, Punjab</p>
       <p>
-        Currently, I am pursuing my B.Tech in Computer Science and
-        Engineering(CSE) from LPU and I am in 4th year till now I got 7.36 CGPA
+        I have compeleted my B.Tech in Computer Science and
+        Engineering(CSE) from LPU and I have got 7.42 CGPA
         Overall.
       </p>
       <h6>Intermediate (12th) From CBSE Board (Apr 2015 - Mar 2017) </h6>
