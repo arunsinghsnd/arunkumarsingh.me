@@ -1,6 +1,6 @@
 import React from "react";
 import Project from "./Project/Project";
-import { Spring } from "react-spring/renderprops";
+import { Spring } from "react-spring";
 import Classes from "./Projects.module.css";
 
 const projects = () => {
@@ -10,7 +10,7 @@ const projects = () => {
       to={{ opacity: 1 }}
       config={{ delay: 500, duration: 500 }}
     >
-      {(props) => (
+      {props => (
         <div style={props} className={Classes.container}>
           <div className={Classes.content}>
             <div className={Classes.projetcs}>

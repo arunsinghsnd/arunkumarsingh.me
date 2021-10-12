@@ -1,7 +1,7 @@
 import React from "react";
 import Content from "./content/Content";
 import Skills from "./Skills/Skills";
-import { Spring } from "react-spring/renderprops";
+import { Spring } from "react-spring";
 import Classes from "./Resume.module.css";
 
 const resume = () => {
@@ -11,7 +11,7 @@ const resume = () => {
       to={{ opacity: 1 }}
       config={{ delay: 500, duration: 500 }}
     >
-      {(props) => (
+      {props => (
         <div style={props} className={Classes.container}>
           <div className={Classes.content}>
             <div className={Classes.resume}>

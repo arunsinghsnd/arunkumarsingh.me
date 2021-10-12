@@ -3,7 +3,7 @@ import Contactform from "./form/Contactform";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.min.css";
 import Auxillary from "../../../hoc/Auxillary";
-import { Spring } from "react-spring/renderprops";
+import { Spring } from "react-spring";
 import axios from "../../../axiosinstance";
 import Classes from "./Contact.module.css";
 class Contact extends Component {
@@ -23,7 +23,7 @@ class Contact extends Component {
       data: [],
     };
   }
-  handleChange = (e) => {
+  handleChange = e => {
     //console.log(e.target);
     this.setState({ [e.target.name]: e.target.value });
     const { name, value } = e.target;
@@ -53,7 +53,7 @@ class Contact extends Component {
     }
     this.setState({ focus, [name]: value });
   };
-  handleSubmit = (e) => {
+  handleSubmit = e => {
     e.preventDefault();
     const { name, email, phone, valid } = this.state;
 
@@ -88,10 +88,10 @@ class Contact extends Component {
       };
       axios
         .post("/contact.json", data)
-        .then((res) => {
+        .then(res => {
           toast.success("Thank You for Contacting");
         })
-        .catch((error) => {
+        .catch(error => {
           console.log(error);
         });
       // this.setState({ data: [data] });
@@ -120,7 +120,7 @@ class Contact extends Component {
           to={{ opacity: 1 }}
           config={{ delay: 500, duration: 500 }}
         >
-          {(props) => (
+          {props => (
             <div style={props} className={Classes.container}>
               <div className={Classes.content}>
                 <div className={Classes.contact}>

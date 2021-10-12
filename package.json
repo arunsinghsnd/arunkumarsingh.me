@@ -13,11 +13,12 @@
     "react-dom": "^17.0.2",
     "react-particles-js": "^3.3.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "^1.1.5",
+    "react-scripts": "^4.0.3",
     "react-spring": "^9.2.4",
     "react-sweet-progress": "^1.1.2",
     "react-toastify": "^7.0.4",
-    "react-typed": "^1.2.0"
+    "react-typed": "^1.2.0",
+    "tsparticles": "^1.35.4"
   },
   "scripts": {
     "start": "react-scripts start",
