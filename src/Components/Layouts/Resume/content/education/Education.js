@@ -11,9 +11,8 @@ const education = () => {
       <h6>Bachelor Of Technology in Compter Science (June 2017 - July 2021)</h6>
       <p>Lovely Professional Universitry, Punjab</p>
       <p>
-        I have compeleted my B.Tech in Computer Science and
-        Engineering(CSE) from LPU and I have got 7.42 CGPA
-        Overall.
+        I have compeleted my B.Tech in Computer Science and Engineering(CSE)
+        from LPU and I have got 7.42 CGPA Overall.
       </p>
       <h6>Intermediate (12th) From CBSE Board (Apr 2015 - Mar 2017) </h6>
       <p>Saraswati Vidya Mandir, Sindri, Dhanbad, Jharkhand </p>
@@ -29,7 +28,9 @@ const education = () => {
         <i className="fas fa-graduation-cap"></i>
       </span>
       <h5>Work Expericene</h5>
-      <h6>Software Developer Intern (Form OCT 2020 to Present)</h6>
+      <h6>Software Engineer (Form AUG 2021 to Present)</h6>
+      <p>DataGrokr Analytics Private Limited, Bengaluru, India</p>
+      <h6>Software Developer Intern (Form OCT 2020 to AUG 2021)</h6>
       <p>TestUnity-A Crowdsourced Testing Platform, Bengaluru, India</p>
     </Auxillary>
   );

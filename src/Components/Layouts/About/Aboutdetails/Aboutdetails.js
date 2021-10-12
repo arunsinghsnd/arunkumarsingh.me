@@ -29,7 +29,12 @@ const aboutdetailes = () => {
         </p>
 
         <h2>
-          Currently,<span> Software Developer Intern  <br/></span>At TestUnity, Bengaluru, India
+          Currently,
+          <span>
+            {" "}
+            Software Engineer <br />
+          </span>
+          At DataGrokr, Bengaluru, India
         </h2>
         <table className={table.join(" ")}>
           <Table />
