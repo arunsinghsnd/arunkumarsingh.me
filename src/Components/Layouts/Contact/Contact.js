@@ -102,7 +102,7 @@ class Contact extends Component {
   render() {
     const { namefocus, emailfocus, phonefocus } = this.state.focus;
     let buttondisabled = (
-      <button type="submit" disabled className="btn btn-primary">
+      <button type="submit" disabled className="btn btn-primary mt-4">
         Submit
       </button>
     );

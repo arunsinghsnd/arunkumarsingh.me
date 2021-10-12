@@ -6,6 +6,7 @@
   justify-content: flex-start;
   flex-direction: column;
   margin-top: 10px;
+  padding-left: 0px;
 }
 .list li {
   width: 100%;
