@@ -1,5 +1,6 @@
 import React from "react";
-import myimage from "../../../../assests/about/arun.jpg";
+// import myimage from "../../../../assests/about/arun.jpg";
+import myimage from "../../../../assests/about/arun2.jpg";
 import Table from "./Table/Table";
 import mycv from "../../../../assests/CV/myname.pdf";
 import Classes from "./Aboutdetails.module.css";
@@ -8,11 +9,11 @@ const aboutdetailes = () => {
   const table = ["table table-borderless", Classes.textcolor];
   return (
     <div className={Classes.aboutdetailes}>
-      <div className={Classes.myimage}>
+      {/* <div className={Classes.myimage}>
         <a href={myimage}>
           <img src={myimage} alt="Arun Kumar Singh" />
         </a>
-      </div>
+      </div> */}
       <div className={Classes.mydetails}>
         <h2>
           I am <span>Arun Kumar Singh</span>
@@ -42,6 +43,13 @@ const aboutdetailes = () => {
         <a href={mycv} download>
           <button className="btn btn-primary">DOWNLOAD CV</button>
         </a>
+      </div>
+      <div className={Classes.myimage}>
+        <img
+          src={myimage}
+          alt="Arun Kumar Singh"
+          style={{ height: "650px", width: "450px" }}
+        />
       </div>
     </div>
   );

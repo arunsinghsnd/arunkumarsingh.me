@@ -32,7 +32,10 @@
     margin-top: 20px;
   }
   .myimage img {
-    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
   }
   .textcolor {
     width: 100% !important;
@@ -48,7 +51,12 @@
     margin-top: 20px;
   }
   .myimage img {
-    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 40%; */
+    height: "550px";
+    width: "350px";
   }
   .textcolor {
     width: 100% !important;
@@ -64,7 +72,11 @@
     margin-top: 20px;
   }
   .myimage img {
-    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin-top: 20px;
   }
   .textcolor {
     width: 100%;
