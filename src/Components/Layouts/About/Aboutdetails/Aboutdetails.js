@@ -1,5 +1,5 @@
 import React from "react";
-// import myimage from "../../../../assests/about/arun.jpg";
+//import myimage from "../../../../assests/about/arun.jpg";
 import myimage from "../../../../assests/about/arun2.jpg";
 import Table from "./Table/Table";
 import mycv from "../../../../assests/CV/myname.pdf";
