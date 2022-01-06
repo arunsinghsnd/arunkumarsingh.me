@@ -5,3 +5,10 @@
 .input:focus {
   box-shadow: 0 0 0 0.1rem rgb(164, 172, 196) !important;
 }
+.name_Lable {
+  margin-bottom: 12px;
+}
+.spacing {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}

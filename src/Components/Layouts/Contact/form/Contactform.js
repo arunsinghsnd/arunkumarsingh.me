@@ -1,7 +1,7 @@
 import React from "react";
 import Classes from "./Contactform.module.css";
 
-const contactform = (props) => {
+const contactform = props => {
   const formcontrol = ["form-control", Classes.input];
   const { nameerror, emailerror, phoneerror } = props.error;
   const { namefocus, emailfocus, phonefocus } = props.focus;
@@ -9,7 +9,9 @@ const contactform = (props) => {
   return (
     <form method="post" onSubmit={props.handleSubmit}>
       <div className="form-group">
-        <label htmlFor="Name">Enter Your Name</label>
+        <label htmlFor="Name" className={Classes.name_Lable}>
+          Enter Your Name
+        </label>
         <input
           type="text"
           className={formcontrol.join(" ")}
@@ -22,7 +24,9 @@ const contactform = (props) => {
         <span style={{ color: "red" }}>{namefocus}</span>
       </div>
       <div className="form-group">
-        <label htmlFor="Name">Enter Your Email</label>
+        <label htmlFor="Name" className={Classes.spacing}>
+          Enter Your Email
+        </label>
         <input
           type="text"
           className={formcontrol.join(" ")}
@@ -35,7 +39,9 @@ const contactform = (props) => {
         <span style={{ color: "red" }}>{emailfocus}</span>
       </div>
       <div className="form-group">
-        <label htmlFor="Name">Enter Your Number</label>
+        <label htmlFor="Name" className={Classes.spacing}>
+          Enter Your Number
+        </label>
         <input
           type="text"
           className={formcontrol.join(" ")}
