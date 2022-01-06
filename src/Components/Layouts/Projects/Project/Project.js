@@ -20,7 +20,7 @@ class Project extends Component {
           alt: "Clothing Sales",
           topic: "Clothing Sales",
           link: "https://github.com/arunsinghsnd/crwn-clothing",
-          link1: "https://clothing-sales.herokuapp.com/"
+          link1: "https://clothing-sales.herokuapp.com/",
         },
         {
           id: 2,
@@ -28,7 +28,7 @@ class Project extends Component {
           alt: "T-Shirt Store",
           topic: "T-Shirt Store",
           link: "https://github.com/arunsinghsnd/e-commerce-frontend",
-          link1: "https://github.com/arunsinghsnd/e-commerce-frontend"
+          link1: "https://github.com/arunsinghsnd/e-commerce-frontend",
         },
         {
           id: 3,
@@ -36,7 +36,7 @@ class Project extends Component {
           alt: "Covid-19 Tracking Updates",
           topic: "Covid-19 Tracking Updates",
           link: "https://github.com/arunsinghsnd/covid19-tracking-updates",
-          link1: "https://covid19-tracking-updates.netlify.app/"
+          link1: "https://covid19-tracking-updates.netlify.app/",
         },
         {
           id: 4,
@@ -44,7 +44,7 @@ class Project extends Component {
           alt: "face-detecting-webapp",
           topic: "face-detecting-webapp",
           link: "https://github.com/arunsinghsnd/facedetecting-webapp",
-          link1: "https://arunsinghsnd.github.io/facedetecting-webapp/"
+          link1: "https://arunsinghsnd.github.io/facedetecting-webapp/",
         },
         {
           id: 5,
@@ -52,7 +52,7 @@ class Project extends Component {
           alt: "Online Share",
           topic: "Online Share",
           link: "https://github.com/arunsinghsnd/onlineshare",
-          link1: "https://onlineshare.herokuapp.com/"
+          link1: "https://onlineshare.herokuapp.com/",
         },
         {
           id: 6,
@@ -60,7 +60,7 @@ class Project extends Component {
           alt: "React Portfolio Desgin",
           topic: "React Portfolio Desgin",
           link: "https://github.com/arunsinghsnd/React-Portfolio-Desgin",
-          link1: "https://react-portfolio-desgin.netlify.app/"
+          link1: "https://react-portfolio-desgin.netlify.app/",
         },
         {
           id: 7,
@@ -68,7 +68,7 @@ class Project extends Component {
           alt: "Robo Friends",
           topic: "Robo Friends",
           link: "https://github.com/arunsinghsnd/robofriends",
-          link1: "https://arunsinghsnd.github.io/robofriends/"
+          link1: "https://arunsinghsnd.github.io/robofriends/",
         },
         {
           id: 8,
@@ -76,7 +76,7 @@ class Project extends Component {
           alt: "React ToDoList",
           topic: "React ToDoList",
           link: "https://github.com/arunsinghsnd/manage-your-time-TODO-app",
-          link1: "https://manage-your-entry.herokuapp.com/"
+          link1: "https://manage-your-entry.herokuapp.com/",
         },
       ],
     };
@@ -84,15 +84,22 @@ class Project extends Component {
   render() {
     return (
       <div className={Classes.content}>
-        {this.state.projects.map((project) => {
+        {this.state.projects.map(project => {
           return (
             <div key={project.id} className={Classes.box}>
               <span className={Classes.topic}>
                 <span>{project.topic}</span>
               </span>
-              <a href={project.link1} rel="noopener noreferrer"  target="_blank" ><img src={project.img} alt={project.alt}  />View in Live</a>
-              <a href={project.link} rel="noopener noreferrer"  target="_blank">
-                <button className={Classes.githubbut} >View in Github</button>
+              <img
+                src={project.img}
+                alt={project.alt}
+                style={{ width: "100%", height: "100%" }}
+              />
+              <a href={project.link1} rel="noopener noreferrer" target="_blank">
+                <button className={Classes.liveView}> View in Live</button>
+              </a>
+              <a href={project.link} rel="noopener noreferrer" target="_blank">
+                <button className={Classes.githubbut}>View in Github</button>
               </a>
             </div>
           );

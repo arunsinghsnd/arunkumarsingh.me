@@ -4,7 +4,7 @@
   width: 100%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: minmax(100px, auto);
+  grid-template-rows: minmax(300px, auto);
   grid-gap: 10px;
   grid-row-gap: 78px;
   grid-auto-flow: dense;
@@ -12,7 +12,7 @@
 }
 .box {
   width: 100%;
-  height: 100%;
+  height: 90%;
   position: relative;
 }
 .topic {
@@ -39,6 +39,21 @@
   width: 100%;
   height: 100%;
 }
+.liveView {
+  width: 100%;
+  height: 100%;
+  height: 45px;
+  background-color: #037fff;
+  color: white;
+  border: none;
+  margin-bottom: 15px;
+}
+.liveView:focus,
+.liveView:hover {
+  background-color: #0069d9;
+  outline: none;
+}
+
 .githubbut {
   width: 100%;
   height: 100%;
@@ -52,11 +67,6 @@
   background-color: #0069d9;
   outline: none;
 }
-
-
-
-
-
 
 @media (max-width: 500px) {
   .content {
