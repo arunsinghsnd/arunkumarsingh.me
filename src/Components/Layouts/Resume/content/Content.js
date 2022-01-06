@@ -9,10 +9,10 @@ const content = () => {
     <div className={Classes.education_expertise}>
       <div className={Classes.box}>
         <div className={Classes.content}>
-          <Education />
+          <Work />
         </div>
         <div className={Classes.content}>
-          <Work />
+          <Education />
         </div>
       </div>
       <div className={Classes.box}>
