@@ -14,24 +14,24 @@ const education = () => {
         I have compeleted my B.Tech in Computer Science and Engineering(CSE)
         from LPU and I have got 7.42 CGPA Overall.
       </p>
+      <hr />
       <h6>Intermediate (12th) From CBSE Board (Apr 2015 - Mar 2017) </h6>
       <p>Saraswati Vidya Mandir, Sindri, Dhanbad, Jharkhand </p>
       <p>
         In 12th standard I had chosen Science stream(PCM) and Passed with 71.6
         %.
       </p>
+      <hr />
       <h6>Matriculation (10th) From CBSE Board (Apr 2014 - Mar 2015)</h6>
       <p>Saraswati Vidya Mandir, Sindri, Dhanbad, Jharkhand </p>
       <p>I had successfully Passed with a 8.8 CGPA</p>
 
-      <span>
-        <i className="fas fa-graduation-cap"></i>
-      </span>
-      <h5>Work Expericene</h5>
-      <h6>Software Engineer (Form AUG 2021 to Present)</h6>
-      <p>DataGrokr Analytics Private Limited, Bengaluru, India</p>
-      <h6>Software Developer Intern (Form OCT 2020 to AUG 2021)</h6>
-      <p>TestUnity-A Crowdsourced Testing Platform, Bengaluru, India</p>
+      <hr
+        style={{
+          border: "3px solid rgb(3, 127, 255)",
+          color: "rgb(3, 127, 255)",
+        }}
+      />
     </Auxillary>
   );
 };

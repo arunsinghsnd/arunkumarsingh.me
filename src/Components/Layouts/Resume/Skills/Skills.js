@@ -10,20 +10,21 @@ class Skills extends Component {
     skills: [
       { id: 1, name: "HTML", percentage: 99, symbol: "90%" },
       { id: 2, name: "CSS", percentage: 98, symbol: "90%" },
-      { id: 3, name: "JAVASCRIPT", percentage: 80, symbol: "90%" },
-      { id: 4, name: "REACT", percentage: 85, symbol: "90%" },
-      { id: 5, name: "REDUX", percentage: 85, symbol: "90%" },
-      { id: 6, name: "NODE.JS", percentage: 70, symbol: "90%" },
-      { id: 7, name: "EXPRESS.JS", percentage: 75, symbol: "90%" },
-      { id: 8, name: "MONGODB", percentage: 75, symbol: "90%" },
+      { id: 3, name: "JAVASCRIPT", percentage: 95, symbol: "90%" },
+      { id: 4, name: "REACT", percentage: 95, symbol: "90%" },
+      { id: 5, name: "REDUX", percentage: 90, symbol: "90%" },
+      { id: 6, name: "NODE.JS", percentage: 90, symbol: "90%" },
+      { id: 7, name: "EXPRESS.JS", percentage: 90, symbol: "90%" },
+      { id: 8, name: "MONGODB", percentage: 90, symbol: "90%" },
       { id: 9, name: "POSTGRES", percentage: 75, symbol: "90%" },
-      { id: 10, name: "BOOTSTRAP", percentage: 75, symbol: "90%" },
-      { id: 11, name: "MATERIALIESCSS", percentage: 75, symbol: "90%" },
-      { id: 12, name: "GIT & GITHUB", percentage: 75, symbol: "90%" },
+      { id: 10, name: "BOOTSTRAP", percentage: 80, symbol: "90%" },
+      { id: 11, name: "MATERIALIESCSS", percentage: 80, symbol: "90%" },
+      { id: 12, name: "GIT & GITHUB", percentage: 95, symbol: "90%" },
+      { id: 13, name: "AWS", percentage: 70, symbol: "90%" },
     ],
   };
   render() {
-    let skills = this.state.skills.map((skill) => {
+    let skills = this.state.skills.map(skill => {
       return (
         <div key={skill.id} className={Classes.box}>
           <div className={Classes.content}>
