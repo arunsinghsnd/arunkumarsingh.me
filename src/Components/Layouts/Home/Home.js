@@ -38,7 +38,7 @@ const home = () => {
               rel="noopener noreferrer"
             >
               <button className="btn btn-primary">
-                <strong>Hire Me</strong>
+                <strong>Get In Touch</strong>
               </button>
             </a>
             <br />
