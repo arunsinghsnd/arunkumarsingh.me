@@ -19,7 +19,7 @@ const aboutdetailes = () => {
           I am <span>Arun Kumar Singh</span>
         </h2>
         <p>
-          I am self-motivated and hardworking Web Developer seeking an
+          I am self-motivated and hardworking Web Developer who always seeking an
           opportunity to work in a challenging environment to prove my skills
           utilize and my knowledge of the database in the growth of the
           organization. Innovative Web Developer, number of experience in
@@ -35,7 +35,7 @@ const aboutdetailes = () => {
             {" "}
             Software Engineer <br />
           </span>
-          At DataGrokr, Bengaluru, India
+          At DAZN, Hyderabad, India
         </h2>
         <table className={table.join(" ")}>
           <Table />
